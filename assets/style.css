@@ -6,10 +6,22 @@ body {
 .threeD {
   background: transparent;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: -15rem;
+  left: 25rem;
+  width: 50%;
+  margin: 0 auto;
 }
+
+@media screen and (max-width: 700px) {
+  .threeD {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
 .slide-up {
   color: rgb(245 164 83);
   text-align: center;
