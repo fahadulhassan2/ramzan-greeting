@@ -5,10 +5,13 @@ body {
 }
 .threeD {
   background: transparent;
-  position: fixed;
-  top: -15rem;
-  left: 25rem;
+  display: grid;
+
+  /* position: fixed;
+  top: -19rem;
+  left: 25rem; */
   width: 50%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -20,6 +23,9 @@ body {
     left: 0;
     width: 100%;
   }
+  .slide-up {
+    margin: 35rem 0rem 0 8rem;
+  }
 }
 
 .slide-up {
@@ -28,7 +34,7 @@ body {
   font-size: 2.5rem;
   position: fixed;
   text-shadow: 2px 2px rgb(113 60 0);
-  margin: 35rem 0rem 0 8rem;
+  /* margin: 0 auto; */
 }
 canvas {
   display: block;
